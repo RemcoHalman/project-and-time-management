@@ -7,8 +7,12 @@
 </template>
 
 <script>
+import AddProject from "../components/projects/AddProject.vue";
+import ListProjects from "../components/projects/ListProjects.vue";
+
 export default {
   name: "Projects",
   title: "Projects",
+  components: { ListProjects, AddProject },
 };
 </script>

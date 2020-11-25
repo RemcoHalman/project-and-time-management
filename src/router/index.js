@@ -18,6 +18,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "projects" */ "../views/Projects.vue"),
   },
+  {
+    path: "/current-week",
+    name: "CurrentWeek",
+    component: () =>
+      import(/* webpackChunkName: "projects" */ "../views/WeekDisplay.vue"),
+  },
 ];
 
 const router = createRouter({
